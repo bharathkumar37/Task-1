@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>HTML & CSS Topics Example Website</h1>   
+    </header>
+
+    <section id="html">
+        <h2>HTML Basics</h2>
+        <p>Learn about elements, attributes, forms, and semantic HTML.  <a href="https://www.w3schools.com/html/" alt="link">Click here </a></p>
+        <img src="img/html.png" alt="Image"  width="100" height="300">
+        <h3>Canvas & Multimedia :</h3>
+        <canvas id="myCanvas" width="560" height="315" style="border:1px solid #000000;">
+            Your browser does not support the HTML canvas tag.
+        </canvas>
+        <iframe width="560" height="315"
+         src="https://www.youtube.com/embed/qz0aGYrrlhU?si=NZQyf2YcQNi26lZD" 
+         title="YouTube video player" frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+        <h3>Difference between Inline Elements and Block Elements :</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Inline Elements</th>
+                    <th>Block Elements</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Begins a new line of text</td>
+                    <td>Its width extends beyond the inner content</td>
+                  </tr>
+                  <tr>
+                    <td>Does not begin a new line of text</td>
+                    <td>Its width only extends as far as the inner content</td>
+                  </tr>
+                  <tr>
+                      <td>You can set the width and height values</td>
+                      <td>You can't set width and height values</td>
+                </tr>
+            </tbody>
+          </table>
+    </section>
+
+    <section id="css">
+        <h2>CSS Basics</h2>
+        <p>Explore CSS selectors, the box model, Flexbox, Grid layouts. <a href="https://www.w3schools.com/css/" alt="link">Click here </a></p>
+        <img src="img/css.png" alt="Image"  width="100" height="300">
+        <h3>Sample Grid Layout :</h3>
+        <div class="grid-container">
+          <div class="grid-item">
+              <p>1</p>
+          </div>
+          <div class="grid-item">
+              <p>2</p>
+          </div>
+          <div class="grid-item">
+              <p>3</p>
+          </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback Form</h2>
+    <form>
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name"> <br>
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email"> <br>
+        <input type="submit" value=" Submit ">
+    </form>
+    </section>
+
+    <footer>
+        <p> &copy; Design and Developed by Bharath Kumar</p>
+    </footer>
+
+</body>
+</html>
